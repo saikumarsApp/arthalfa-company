@@ -1,0 +1,73 @@
+body{
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.main-container{
+	background-color: #2e3534;
+	background-size: cover;
+	min-height: 100vh;
+	margin-top: 0px;
+	text-align: center;
+	font-family: "Roboto";
+}
+.main-heading-styling{
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+}
+.textarea-styling{
+	width: 350px;
+	border-width: 0px;
+	border-radius: 6px;
+	outline: none;
+	padding: 8px;
+	color:rgb(19, 18, 36);
+}
+.unique-characters-card{
+	background-color: antiquewhite;
+	padding: 10px;
+	min-width: 150px;
+	border-radius: 8px;
+	margin: 10px;
+}
+.unique-text-styling{
+	color: black;
+	font-size: 18px;
+}
+.count-styling{
+	color: green;
+}
+.analysis-stats-card{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.searchInput{
+	padding: 5px;
+	border-radius: 3px;
+	outline: none;
+    margin-right: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 250px;
+}
+.replaceinput{
+	padding: 5px;
+	border-radius: 3px;
+	outline: none;
+    margin: 8px;
+}
+.replace-button{
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	color: white;
+	background-color: rgb(92, 52, 224);
+	border-radius: 4px;
+	outline: none;
+	border-width: 0px;
+	cursor: pointer;
+}
